@@ -1,6 +1,6 @@
 body
 {
-	display: block;
+	display: inline-block;
 	background-color: #c3c3c3;
 }
 .header
@@ -12,6 +12,12 @@ body
 	margin-left:15%;
 	margin-right:15%;
 	display:inline-block;
+}
+.header img
+{
+	width:auto;
+	height:auto;
+	repeat:none;
 }
 .logo
 {
@@ -25,11 +31,10 @@ body
 	border:1px solid black;
 	border-radius:0px 20px 0px 20px;
 	background-color: #c3c3c3;
-}
 .logo img
 {
-	width:100%;
-	height:100%;
+	width:100px;
+	height:100px;
 }
 .connexion
 {
@@ -53,16 +58,18 @@ body
 {
 	text-decoration:none;
 	color:#1487BD;
-	font-family:Courier New ;
+	font-family:'Courier New';
 }
 .connexion img
 {
-	height:5%;
-	width:5%;
+	height:5px;
+	width:5px;
 }
-#nav{
+.nav{
 	float:right;
 	background-color:yellow;
+	width:70%;
+	height:auto;
 }
 ul.sdt_menu{
 	margin:0;
@@ -70,7 +77,6 @@ ul.sdt_menu{
 	list-style: none;
 	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
 	font-size:14px;
-	width:1020px;
 }
 ul.sdt_menu a{
 text-decoration:none;

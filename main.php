@@ -1,30 +1,27 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	    <link rel="stylesheet" media="screen, print, handheld" type="text/css" href="calendrier.css" />
-	    <script type="text/javascript" src="calendrier.js"></script>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<script type="text/javascript" src="script.js"></script>
 		<!-- jQuery library (served from Google) -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<!-- bxSlider Javascript file -->
 		<script src="js/jquery.bxslider.min.js"></script>
 		<!-- bxSlider CSS file -->
 		<link href="/lib/jquery.bxslider.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="style.css"/>
 		<title>Form@Cup</title>
 	</head>
 	<body>
 		
-		<div class="header">
+		<div id="header">
 			<div class="connexion">
 				<ul>
 					<li><a href="#"><img src="connexion.png">Connexion</a></li>
 					<li><a href="#"><img src="inscription.png">Inscription</a></li>
 				</ul>
 			</div>
-			<div class="logo">
-				<img src="logo.png">
+			
+			<div id="logo">
+				<img src="logo.png"/>
 			</div>
 
 			<div id="nav">	
@@ -60,8 +57,8 @@
 								<img src="images/3.jpg" alt=""/>
 								<span class="sdt_active"></span>
 								<span class="sdt_wrap">
-									<span class="sdt_link">Forum</span>
-									<span class="sdt_descr">Où tout le monde parle</span>
+									<span class="sdt_link">Ton profil</span>
+									<span class="sdt_descr">Quel formation te conviendrait?</span>
 								</span>
 							</a>
 						</li>
@@ -70,8 +67,8 @@
 								<img src="images/4.png" alt=""/>
 								<span class="sdt_active"></span>
 								<span class="sdt_wrap">
-									<span class="sdt_link">Articles</span>
-									<span class="sdt_descr">Ecole</span>
+									<span class="sdt_link">Nous contacter</span>
+									<span class="sdt_descr">Comment nous contacter</span>
 								</span>
 							</a>
 						</li>
@@ -129,26 +126,27 @@
 		            });
 		        </script>
 			</div>
+		</div>
 		
-		<div class="bandeau">
+		<div id="bandeau">
 			<p> </p>
 		</div>
 		
-		<div class="agenda">
+		<div id="agenda">
 			<h3>Agenda</h3>
 			<script type="text/javascript">
 		        calendrier();
 		    </script>
 		</div>
 		
-		<div class="article">
-			<div class="tete">
+		<div id="article">
+			<div id="tete">
 				<h1>Accueil</h1>
 			</div>
-			<div class="contenu">
+			<div id="contenu">
 				<p>Watsup?</p>
 			</div>
-			<div class="pied">
+			<div id="pied">
 				<ul>
 					<li>Publi&eacute; le 08/02/15</li>
 					<li>Modifi&eacute le 09/02/15</li>
@@ -157,7 +155,7 @@
 		</div>
 		
 		
-		<div class="footer">
+		<div id="footer">
 			<ul>
 				<li>@Mentions l&eacute;gales</li>
 				<li>Nous contacter au 06 06 06 06 06</li>
